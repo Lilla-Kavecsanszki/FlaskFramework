@@ -3,8 +3,6 @@ import json
 from flask import Flask, render_template, request, flash
 
 
-from markupsafe import escape
-
 if os.path.exists("env.py"):
     import env
 
